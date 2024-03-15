@@ -1,0 +1,51 @@
+__________________generate_reports____________________
+SUCCESS. Sales Report created successfully
+___________________________________________
+__________________daemon____________________
+Daemon is running.
+__________________daemon____________________
+Daemon is running.
+Daemon Step 1 complete.
+Daemon Step 2 complete.
+Daemon Step 3 complete.
+Daemon Step 4 complete.
+ERROR. All file descriptors not closed.
+Daemon Step 5 complete.
+___________________________________________
+__________________collect_reports____________________
+All contents of GenerateDirectory moved to CollectedDirectory.
+___________________________________________
+
+__________________backup_dashboard____________________
+SUCCESS. All contents of CollectedDirectory copied to backupDirectory.
+___________________________________________
+
+__________________lock_directories____________________
+SUCCESS. GenerateDirectory locked.
+SUCCESS. CollectedDirectory locked.
+SUCCESS. backupDirectory locked.
+__________________lock_directories____________________
+___________________________________________
+
+__________________generate_reports____________________
+ERROR. File could not be created.
+___________________________________________
+
+__________________unlock_directories____________________
+SUCCESS. GenerateDirectory unlocked.
+SUCCESS. CollectedDirectory unlocked.
+SUCCESS. backupDirectory unlocked.
+__________________unlock_directories____________________
+___________________________________________
+
+__________________generate_reports____________________
+SUCCESS. Manufacturing Report created successfully
+___________________________________________
+__________________check_file_uploads____________________
+SUCCESS. Manufacturing report is present.
+ERROR. The following reports are missing:
+- Sales
+- Warehouse
+- Distribution
+___________________________________________
+
