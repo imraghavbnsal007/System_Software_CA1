@@ -7,6 +7,7 @@ The CTO has offered a list of desired functionality for the new website manageme
 5. If a change needs to be urgently made to the live site, it should be possible to make the changes. (No users shouldn’t have write access to the new reporting directory)
 
 Project Requirements:
+
 a. Create a daemon to continually manage the operation of the requirements listed by the CTO above.
 b. Identify new or modified xml reports and log details of who made the changes, this should be generated as a text file report and stored on the server.
 c. The department managers must upload their xml report file by 11.30pm each night. The uploads to the shared directory must be moved to the reporting directory. This should happen at 1am. (This functionality needs to be self-contained in the solution. Do NOT use cron)
